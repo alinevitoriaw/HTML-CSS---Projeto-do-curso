@@ -1,0 +1,121 @@
+/* fonte */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #F0F0F0;
+    font-family: 'Inter';
+}
+
+header{
+    height: 18vh;
+}
+
+header .margin{
+    height: 100%;
+}
+
+.margin{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+/*.logo img{
+    height: 122px;
+    width: 159px;
+}*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+
+/* BLOCO PRINCIPAL */
+.principal .margin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.principal{
+    padding: 8rem 0;
+}
+
+.sobre-o-projeto{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.sobre-o-projeto h1{
+    color: #f51ba3;
+    font-size: 2.5rem;
+}
+
+.sobre-o-projeto button{
+    width: 14rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #457eff;
+    color: white;    
+}
+
+.container-cards{
+    background-color: #457eff;
+    padding: 4rem 0;
+}
+
+.container-cards .margin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-cards .margin .cards{
+    display: flex;
+    gap: 1rem;
+}
+
+.container-cards .margin .cards .card{
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.container-cards .margin .cards .card p{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+footer{
+    padding: 2rem 0;
+    background-color: #336ff8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    color: white;
+}
